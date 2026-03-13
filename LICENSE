@@ -1,0 +1,70 @@
+MIT License
+
+Copyright (c) 2025 OP_NEXUS Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+ATTRIBUTION NOTICE
+
+OP_NEXUS is built on OP_NET — the smart contract execution layer for Bitcoin
+Layer 1. The authors acknowledge and thank the OP_NET and btc-vision teams for
+making programmable finance on Bitcoin possible.
+
+  OP_NET Runtime:   https://opnet.org
+  btc-vision:       https://github.com/btc-vision
+  btc-runtime:      https://github.com/btc-vision/btc-runtime  (MIT)
+  native-swap:      https://github.com/btc-vision/native-swap  (MIT)
+
+-------------------------------------------------------------------------------
+
+DEPLOYED CONTRACT
+
+The following contract deployment on Bitcoin Layer 1 is the canonical
+reference implementation of OP_NEXUS v1.0:
+
+  Network:  OP_NET Testnet
+  Address:  opt1sqpup5mjysflvxucr2qhpg6td7hdsyu8z05sngpw3
+  Binary:   OPNexus.wasm (SHA-256 to be published post-audit)
+
+This deployment is immutable. No admin keys exist. No upgrade mechanism exists.
+The treasury fee recipient address embedded in this deployment is controlled
+by the original author and represents the author's economic stake in the
+protocol as described in the project documentation.
+
+Any fork or redeployment of this Software must comply with the MIT License
+above and is encouraged to clearly distinguish itself from the canonical
+deployment to avoid user confusion.
+
+-------------------------------------------------------------------------------
+
+DISCLAIMER
+
+OP_NEXUS is experimental software deployed on a nascent blockchain execution
+environment. It has not been formally audited at the time of initial deployment.
+Users interact with it at their own risk.
+
+The authors make no representations or warranties about the suitability of
+this software for any purpose, including but not limited to financial
+transactions. Nothing in this software constitutes financial advice.
+
+Smart contracts are immutable once deployed. Bugs, if present, cannot be
+patched post-deployment. Users are encouraged to review the source code,
+the SECURITY.md analysis, and the WHITEPAPER.md before committing capital.
